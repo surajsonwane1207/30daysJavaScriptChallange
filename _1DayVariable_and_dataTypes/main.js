@@ -19,13 +19,13 @@ console.log(male)
 // Activity 3: Constant decalration
 
 // Task 4: Create variables of different data types (number,string,boolean,aobject,array) and log each operator
-const num = 10
-const department = "any"
-const start = true
-const student = {name:"suraj",age:20}
-const colors = ["red","pink","cyan"]
+// const num = 10
+// const department = "any"
+// const start = true
+// const student = {name:"suraj",age:20}
+// const colors = ["red","pink","cyan"]
 
-console.log(num,department,start,student,colors)
+// console.log(num,department,start,student,colors)
 
 // Activity 4:Data Types 
 
@@ -52,3 +52,37 @@ Uncaught TypeError TypeError: Assignment to constant variable.
     at executeUserEntryPoint (internal/modules/run_main:135:12)
     at <anonymous> (internal/main/run_main_module:28:49)
     */
+
+
+// Feature Request 
+// 1 variable types console log write a script that declare variable of different data types and log both the values and data of each variable to the console
+
+const num = 10
+const department = "any"
+const start = true
+const student = { name: "suraj", age: 20 }
+const colors = ["red", "pink", "cyan"]
+
+console.log(typeof num, typeof department, typeof start, typeof student, typeof colors)
+
+// 2 reassignment demo : create a script that demonstrate the different in behaviour between let and const whenn it comes to reassignment
+ let sim = "Jio"
+ console.log(sim)
+  sim = "VI"
+ console.log(sim)
+
+const laptop = "Dell"
+console.log(laptop)
+laptop = "Apple"
+console.log(laptop)
+/* 
+Uncaught TypeError TypeError: Assignment to constant variable.
+    at <anonymous> (c:\Users\suraj\OneDrive\Desktop\chai-code\_1DayVariable_and_dataTypes\main.js:76:8)
+    at Module._compile (internal/modules/cjs/loader:1369:14)
+    at Module._extensions..js (internal/modules/cjs/loader:1427:10)
+    at Module.load (internal/modules/cjs/loader:1206:32)
+    at Module._load (internal/modules/cjs/loader:1022:12)
+    at executeUserEntryPoint (internal/modules/run_main:135:12)
+    at <anonymous> (internal/main/run_main_module:28:49)
+main.js:76
+*/
